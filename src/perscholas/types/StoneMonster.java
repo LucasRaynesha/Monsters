@@ -1,2 +1,10 @@
-package perscholas.types;public class StoneMonster {
+package perscholas.types;
+
+import perscholas.Monster;
+
+public class StoneMonster implements Monster {
+    @Override
+    public void attack(){
+        System.out.println("Attack with Stones!");
+    }
 }
